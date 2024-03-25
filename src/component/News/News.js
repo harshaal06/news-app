@@ -11,7 +11,7 @@ function News({ author, title, description, url, urlToImage, publishedAt }) {
                 <p className="author">{author}</p>
                 <p className="publishedAt">{publishedAt}</p>
             </div>
-            <p className="description">{description.substring(0,150)}...<a href={url} target="_blank">Read More</a></p>
+            <p className="description">{description}..<a href={url} target="_blank">Read More</a></p>
             </div>
         </div>
     )
