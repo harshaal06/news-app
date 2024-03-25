@@ -32,6 +32,7 @@ function Home() {
             <input
                 type="text"
                 className="search"
+                placeholder="Enter news type"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)} />
             <div className="container">
